@@ -1,0 +1,23 @@
+body {
+    background: #356381;
+}
+#hero {
+    background: url(https://img.pikbest.com/wp/202345/desktop-wallpapers-landscape-background-wallpaper_9578952.jpg!bw700);
+    background-size: cover;
+}
+#row {
+    background-color: rgba(72, 82, 75, 0.568);
+    height: 50px;
+}
+.navbar-brand img {
+    max-width: 60px; 
+    height: auto; 
+  }
+.navbar {
+    opacity: 75%;
+}
+.card-text, .card-title {
+    font-family: "buffo", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
