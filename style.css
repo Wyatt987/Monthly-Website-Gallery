@@ -21,3 +21,20 @@ body {
     font-weight: 700;
     font-style: italic;
 }
+.card {
+    transition: transform .5s;
+    border-radius: 30px;
+}
+.card:hover {
+    transform: scale(1.25); 
+    z-index: 5;
+}
+@media (max-width: 768px) {
+    .card:hover {
+        transform: scale(1); 
+    }
+}
+#y {
+    height: 100%;
+}
+
